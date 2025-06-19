@@ -1,0 +1,12 @@
+/* frontend/src/components/MainContent.css */
+
+.main-content {
+  flex-grow: 1;
+  background-color: white;
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+.main-content.expanded {
+  width: calc(100% - 60px);
+}
